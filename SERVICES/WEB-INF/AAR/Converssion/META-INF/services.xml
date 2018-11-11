@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service name="Converssion">
+<description>Converssion program</description>
+<parameter name="ServiceClass" locked="false">SERVICES.Converssion</parameter>
+<operation name="mm_m">
+<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+</operation>
+<operation name="cm_m">
+<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+</operation>
+<operation name="dm_m">
+<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+</operation>
+<operation name="dkm_m">
+<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+</operation>
+<operation name="hm_m">
+<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+</operation>
+<operation name="km_m">
+<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+</operation>
+<operation name="deg_rad">
+<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+</operation>
+<operation name="rad_deg">
+<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+</operation>
+<operation name="deg_grad">
+<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+</operation>
+<operation name="grad_deg">
+<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+</operation>
+<operation name="grad_rad">
+<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+</operation>
+<operation name="rad_grad">
+<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+</operation>
+</service>

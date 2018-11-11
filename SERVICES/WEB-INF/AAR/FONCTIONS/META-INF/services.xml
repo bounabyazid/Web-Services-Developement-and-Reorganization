@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service name="FONCTIONS">
+<description>FONCTIONS program</description>
+<parameter name="ServiceClass" locked="false">SERVICES.FONCTIONS</parameter>
+<operation name="CARRE">
+<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+</operation>
+<operation name="FACT">
+<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+</operation>
+<operation name="MULT">
+<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+</operation>
+<operation name="ADD">
+<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+</operation>
+<operation name="DIV">
+<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+</operation>
+</service>

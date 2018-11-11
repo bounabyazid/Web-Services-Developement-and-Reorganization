@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service name="LMD">
+<description>LMD program</description>
+<parameter name="ServiceClass" locked="false">SERVICES.LMD</parameter>
+<operation name="ADD">
+<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+</operation>
+<operation name="Sub">
+<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+</operation>
+</service>

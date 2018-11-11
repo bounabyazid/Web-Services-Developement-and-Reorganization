@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service name="BONJOUR">
+<description>BONJOUR program</description>
+<parameter name="ServiceClass" locked="false">SERVICES.BONJOUR</parameter>
+<operation name="SALUT">
+<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+</operation>
+<operation name="NINJA">
+<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+</operation>
+</service>

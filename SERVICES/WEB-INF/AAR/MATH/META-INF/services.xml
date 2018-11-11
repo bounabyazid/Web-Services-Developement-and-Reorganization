@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service name="MATH">
+<description>MATH program</description>
+<parameter name="ServiceClass" locked="false">SERVICES.MATH</parameter>
+<operation name="ADD">
+<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+</operation>
+<operation name="SUB">
+<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+</operation>
+<operation name="MULT">
+<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+</operation>
+<operation name="DIV">
+<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+</operation>
+</service>

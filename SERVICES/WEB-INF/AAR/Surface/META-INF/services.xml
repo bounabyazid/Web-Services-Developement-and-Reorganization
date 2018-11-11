@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service name="Surface">
+<description>Surface program</description>
+<parameter name="ServiceClass" locked="false">SERVICES.Surface</parameter>
+<operation name="surface_carre">
+<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+</operation>
+<operation name="surface_triangle">
+<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+</operation>
+<operation name="surface_rectangle">
+<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+</operation>
+<operation name="surface_circle">
+<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+</operation>
+<operation name="surface_trapeze">
+<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+</operation>
+<operation name="surface_parallelogramme">
+<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+</operation>
+</service>
